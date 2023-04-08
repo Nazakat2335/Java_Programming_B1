@@ -18,8 +18,6 @@ public class StringUtil {
         StringUtil.reverseStr("loopcamp");
         System.out.println(StringUtil.reverseStr("Hello World!"));
 
-
-
     }
     public static int frequencyOfCharacter(String str, char letter) {
         int count = 0;
