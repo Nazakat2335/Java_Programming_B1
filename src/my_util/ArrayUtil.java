@@ -3,7 +3,7 @@ package my_util;
 import java.util.Arrays;
 
 public class ArrayUtil {
-    public class ArrayUtill {
+
         public static int minNumInArr(int[] arr) {
             Arrays.sort(arr);
             return arr[0];
@@ -22,7 +22,7 @@ public class ArrayUtil {
         }
 
 
-    }
+
 
     public static boolean containArr(int[] arr, int num) {
 

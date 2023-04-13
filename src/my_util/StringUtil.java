@@ -27,7 +27,6 @@ public class StringUtil {
                 ++count;
             }
         }
-
         return count;
     }
     }
