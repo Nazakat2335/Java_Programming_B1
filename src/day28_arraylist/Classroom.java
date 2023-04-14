@@ -15,7 +15,7 @@ public class Classroom {
         System.out.println(group);
         //get the total element count
         System.out.println(group.size());
-        System.out.println("Fist cartoon character"+group.get(0));
+        System.out.println("Fist cartoon character:"+group.get(0));
         System.out.println("Last cartoon character"+group.get(group.size()-1));
         for (int i = 0; i<group.size(); i++) {
             System.out.println("cartoon character number"+(i+1)+": "+group.get(i));
