@@ -64,11 +64,6 @@ public class Library {
 
 
 
-
-
-
-
-
         System.out.println("------------------------");
         System.out.println(b1 instanceof JavaTextBook);
         System.out.println(b2 instanceof JavaTextBook);
