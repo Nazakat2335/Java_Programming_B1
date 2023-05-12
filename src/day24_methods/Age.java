@@ -30,7 +30,8 @@ public class Age {
         }
 
         public static void main(String[] args) {
-            calculateAge(1960,2023);
+
+        calculateAge(1960,2023);
         }
     }
 

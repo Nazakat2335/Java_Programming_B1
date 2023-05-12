@@ -1,11 +1,14 @@
 package day35_inheritance.book;
 
 
-    public class Building {
+import day35_inheritance.person.Person;
+import day35_inheritance.person.Student;
+
+public class Building {
         public static void main(String[] args) {
 
-            Person person = new Person();
-            person.name = "James Bond";
+            Person person=new Person();
+            person.nam = "James Bond";
             person.age = 40;
             person.favoriteHobby = "spy";
             person.talk();
