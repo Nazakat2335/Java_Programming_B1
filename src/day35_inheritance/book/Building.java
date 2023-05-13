@@ -8,7 +8,7 @@ public class Building {
         public static void main(String[] args) {
 
             Person person=new Person();
-            person.nam = "James Bond";
+            person.name= "James Bond";
             person.age = 40;
             person.favoriteHobby = "spy";
             person.talk();
