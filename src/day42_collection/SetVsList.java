@@ -14,7 +14,7 @@ public class SetVsList {
         list.add(33);
         list.add(-4);
         list.add(20);
-//        list.add(null);
+ //     list.add(null);
 //        list.add(null);
         System.out.println(list);
         System.out.println(list.get(0));
@@ -31,17 +31,21 @@ public class SetVsList {
         set.add(33);
         set.add(-4);
         set.add(20);
-//        set.add(null);
+//       set.add(null);
 //        set.add(null);
         // System.out.println(set);
         // System.out.println(list.get(list.size()-1));
         // Since SET interface does NOT work with indexes we canNOT use get method like this.
 
-        System.out.println("-----\\/-----");
+        System.out.println("---------------------");
+
         for (Integer each : set) {
-            if (each == 20) {
+
+            if (each.equals(20)){
                 System.out.println(each);
+                System.out.println("===============");
             }
+
         }
 
 
@@ -66,6 +70,17 @@ public class SetVsList {
         List <Integer> listNoDup = new ArrayList<>(set2);
 
         System.out.println(new TreeSet<>(set2));
+
+        System.out.println("++++++++++");
+
+
+        ArrayList<String> list6=new ArrayList<>(Arrays.asList("yes","no","agree"));
+        int index=0;
+        String reassignValue="da";
+        list6.set(0,reassignValue);
+        System.out.println(list6);
+
+
 
     }
 }
