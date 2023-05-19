@@ -8,8 +8,9 @@ public class SetObjects {
     public static void main(String[] args) {
         Set<String>set=new HashSet<>();
         set.add(null);
-        set.add("hello");
-        set.add("400");
+        set.add("hello");//not allow duplicate
+        set.add("400");//allow nul
+                           //not allow index
         set.add("$5.0");
         set.add("hello");
         set.add("%");
@@ -18,7 +19,7 @@ public class SetObjects {
 
         Set<String>set1=new LinkedHashSet<>();
         set1.add(null);
-        set1.add("hello");
+        set1.add("hello");//allow nul,dont allow duplicate
         set1.add("400");
         set1.add("$5.0");
         set1.add("hello");
@@ -30,7 +31,7 @@ public class SetObjects {
         Set<String>set2=new TreeSet<>();
       //  set1.add(null); DOES NOT  ALLOW THE  NULL
         set2.add("hello");
-        set2.add("400");
+        set2.add("400");//dont allow duplicate
         set2.add("$5.0");
         set2.add("hello");//DUPLICATION IS NOT ALLOW ELSE
         set2.add("%");
